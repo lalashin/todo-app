@@ -120,3 +120,9 @@ ul li span:hover{
         padding: 16px 22px;
     }
 }
+
+@media (max-width:360px) {
+    input{
+        width: 70%;
+    }
+}
