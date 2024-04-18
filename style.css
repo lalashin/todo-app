@@ -111,14 +111,14 @@ ul li span:hover{
 @media (max-width:768px) {
     .todo-app {
         max-width: none;
-        margin: 50px auto 20px;
+        margin: 50px auto 20px;       
     }
     input{
         width: 70%;
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:480px) {    
     input{
         width: 60%;
     }
@@ -128,5 +128,8 @@ ul li span:hover{
 }
 
 @media (max-width:360px) {
+    .todo-app {      
+        padding: 40px 12px 70px;
+    }
     
 }
