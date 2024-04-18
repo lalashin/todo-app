@@ -113,16 +113,20 @@ ul li span:hover{
         max-width: none;
         margin: 50px auto 20px;
     }
+    input{
+        width: 70%;
+    }
 }
 
 @media (max-width:480px) {
+    input{
+        width: 60%;
+    }
     button {
         padding: 16px 22px;
     }
 }
 
 @media (max-width:360px) {
-    input{
-        width: 70%;
-    }
+    
 }
