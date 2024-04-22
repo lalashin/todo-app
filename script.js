@@ -1,6 +1,12 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
 
+inputBox.addEventListener("keydown",function(e){
+    if(e.keyCode === 13){
+        addTask(e);
+    }
+})
+
 function addTask(){
     if(inputBox.value === ''){
         alert("You must write something!");
